@@ -20,6 +20,8 @@ ThisWorkbook.Worksheets("MOP").Range("A5:U5").Copy
 new_wb.Worksheets("Sheet1").Range("A1").PasteSpecial Paste:=xlPasteFormats
 ThisWorkbook.Worksheets("MOP").Range("A5:U5").Copy
 new_wb.Worksheets("Sheet1").Range("A1").PasteSpecial Paste:=xlPasteValues
+
+'Activate filter on headers
 new_wb.Worksheets("Sheet1").Range("A1:U1").AutoFilter
 
 'Copy Table Value
