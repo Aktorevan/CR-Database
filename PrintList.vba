@@ -6,7 +6,7 @@ Dim new_wb As Workbook
 'Create new blank workbook
 Set new_wb = Workbooks.Add
 
-'Get the location for save the file (with the dialog-box)
+'Get the location for saving the file (with the dialog-box)
 save_loc = Application.GetSaveAsFilename(InitialFileName:="CR MW Plan", fileFIlter:="Excel Files (*.xlsx), *.xlsx")
 
 'Open new blank workbook
